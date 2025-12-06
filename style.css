@@ -1,7 +1,4 @@
-
-
-.gapentre-parent:hover > .gapentre
-{
+.gapentre-parent:hover>.gapentre {
     transform: translateX(1em);
     transition: ease 0.9s !important;
 }
@@ -36,12 +33,14 @@
     transition: all 0.8s ease;
     overflow: hidden;
     position: absolute;
-    top: 14em !important; /* position de départ */
+    top: 14em !important;
+    /* position de départ */
 }
 
 .flex-support:hover .flex-hover {
     height: 15em;
-    top: 7em !important; /* monte vers le haut */
+    top: 7em !important;
+    /* monte vers le haut */
 }
 
 /* contenu caché */
@@ -74,92 +73,84 @@
 
 /* animation image */
 
-.img-animation:hover 
-{
-    transition: ease 1s transform ;
+.img-animation:hover {
+    transition: ease 1s transform;
     transform: scale(1.2) rotate(4deg);
 }
 
 /* footer */
 
-.footer-bottom:hover
-{
+.footer-bottom:hover {
     background-color: #198754;
 }
 
-.teste-parent:hover .teste 
-{
+.teste-parent:hover .teste {
     transform: scale(1.04);
     transition: ease 0.6s;
     opacity: 0.8;
 }
-.teste
-{
+
+.teste {
     overflow: hidden;
 }
 
-.btn-hover:hover
-{
+.btn-hover:hover {
     background-color: #246431;
 }
-body{
+
+body {
     background-color: #FFFFFF;
 }
 
 
 @media (max-width: 1440px) {
-    .top-shut
-    {
+    .top-shut {
         margin-top: 25% !important;
     }
 }
+
 @media (max-width: 1024px) {
-    .top-shut
-    {
+    .top-shut {
         margin-top: 35% !important;
     }
 }
+
 @media (max-width: 768px) {
-    .top-shut
-    {
+    .top-shut {
         margin-top: 18% !important;
     }
-    .top10
-    {
+
+    .top10 {
         margin-top: 2em;
     }
-    .marg-100
-    {
+
+    .marg-100 {
         width: 100% !important;
     }
 }
 
 @media (max-width: 425px) {
-    .taille
-    {
+    .taille {
         width: 98% !important;
     }
 
     .top-shut {
         margin-top: 44em !important;
     }
-    .plus-100
-    {
+
+    .plus-100 {
         width: 100% !important;
     }
 
-    .www {
-        width: 100% !important;
-    } 
 }
+
 @media (max-width: 375px) {
-    .wayyy
-    {
+    .wayyy {
         display: block !important;
     }
-    .margin-gauche
-    {
+
+    .margin-gauche {
         margin-left: 6em;
     }
-    
+
 }
