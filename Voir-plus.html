@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Agritech-App</title>
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- Nav-1 -->
+    <div class="">
+        <nav class="navbar bg-warning-subtle position-fixed z-3 w-100">
+            <div class="container-fluid d-flex justify-content-between">
+                <form class="d-flex gap-3 d-none d-lg-flex" role="search">
+                    <div class="col-6  d-flex align-items-center w-50" type="submit">
+                        <i class="bi bi-envelope fs-3"></i>
+                        <p class="m-0 fs-5">support@agritech.com</p>
+                    </div>
+                    <div class="col-6 gap-2 d-flex align-items-center w-50" type="submit">
+                        <i class="bi bi-telephone fs-3"></i>
+                        <p class="m-0 fs-5">(00227)88485190</p>
+                    </div>
+                </form>
+
+
+                <div class="nav-item d-flex align-items-center
+ justify-content-center">
+                    <span class="" style="width: 3em;">
+                        <img class="w-100" src="/outils/favico.png" alt="#"></i></span>
+                    <a class="nav-link active fs-3" aria-current="page" href="#">Agritech App</a>
+                </div>
+
+
+                <div class="d-flex align-items-center gap-2 d-none d-md-flex">
+                    <a href="https://www.diplomatie.gouv.fr/fr/dossiers-pays/niger/presentation-du-niger/" class="text-reset" target="_blank">
+    <span class="d-flex align-items-center gap-3 justify-content-center" style="height: 2em;">
+                        <img class="w-100 h-100" src="outils/Niger.png" alt="">
+                        <p class="small">NE</p>
+                    </span>
+</a>
+                    
+                    <span class="fs-3">
+                        |
+                    </span>
+                    <a href="https://twitter.com/" class="text-reset" target="_blank">
+                        <span class=" d-flex align-items-center"><i class="bi bi-twitter-x fs-3"></i></span>
+                    </a>
+                    <a href="https://www.facebook.com/" class="text-reset" target="_blank">
+                        <span class=" d-flex align-items-center"><i class="bi bi-facebook fs-3"></i></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/" class="text-reset" target="_blank">
+                        <span class=" d-flex align-items-center"><i class="bi bi-linkedin fs-3"></i></span>
+                    </a>
+                    <a href="https://www.instagram.com/" class="text-reset" target="_blank">
+                        <span class=" d-flex align-items-center"><i class="bi bi-instagram fs-3"></i></span>
+                    </a>
+                    <a href="https://www.tiktok.com/" class="text-reset" target="_blank">
+                        <span class=" d-flex align-items-center"><i class="bi bi-tiktok fs-3"></i></span>
+                    </a>
+                </div>
+                <button class="navbar-toggler d-flex d-md-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Nav-2 -->
+
+        <nav class="navbar  d-none d-md-flex" style="padding-top: 5em;">
+            <div class="container-fluid d-flex justify-content-between">
+                <!-- barre de recherche -->
+                <div class="input-group mb-3 w-25 d-none d-lg-flex">
+                    <button class="btn  border-secondary " type="button" id="button-addon1"><i
+                            class="bi bi-search fs-4"></i></button>
+                    <input type="text" class="form-control" placeholder="Search anything ..."
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                </div>
+                <!-- Home -> Indicateurs -->
+
+
+                <div class="d-flex justify-content-center">
+
+                    <div class="d-flex justify-content-center">
+                        <ul class="d-flex gap-4">
+                            <li class="d-flex align-items-center
+ justify-content-center  gapentre-parent">
+                                <a class="nav-link active fs-4 " aria-current="page" href="index.html">Home</a>
+                                <span class="d-flex align-items-end
+ justify-content-center fs-5 gapentre" style="height: 38px;">
+                                    <i class="bi bi-arrow-up-right"></i></span>
+                            </li>
+                            <li class="d-flex align-items-center
+ justify-content-center  gapentre-parent">
+                                <a class="nav-link active fs-4" aria-current="page" href="formations.html">Formations</a>
+                                <span class="d-flex align-items-end
+ justify-content-center fs-5 gapentre" style="height: 38px;"><i class="bi bi-arrow-up-right"></i></span>
+                            </li>
+                            <li class="d-flex align-items-center
+ justify-content-center  gapentre-parent">
+                                <a class="nav-link active fs-4" href="#">Météo</a>
+                                <span class="d-flex align-items-end
+ justify-content-center fs-5 gapentre" style="height: 38px;">
+                                    <i class="bi bi-arrow-up-right"></i></span>
+                            </li>
+                            <li class="d-flex align-items-center
+ justify-content-center  gapentre-parent">
+                                <a class="nav-link active fs-4" aria-disabled="true">Indicateurs</a>
+                                <span class="d-flex align-items-end
+ justify-content-center fs-5 gapentre" style="height: 38px;">
+                                    <i class="bi bi-arrow-up-right"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="d-flex align-items-center justify-content-center px-4 py-3 verte gap-2"
+                    style="border-radius: 50em;">
+                    <span class="active d-flex align-items-center justify-content-center">
+                        <a aria-current="page" href="login.html" class="text-decoration-none text-light">connect</a>
+                    </span>
+                    <span class="d-flex align-items-center
+ justify-content-cente text-light">
+                        <i class="bi bi-box-arrow-in-left"></i>
+                    </span>
+                </div>
+
+            </div>
+        </nav>
+        <hr class="m-0 mb-5">
+    </div>
+
+    <!-- contenu du sidbarre -->
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <div class="d-flex align-items-center
+ justify-content-center">
+                <span class="" style="width: 3em;">
+                    <img class="w-100" src="/outils/favico.png" alt="#"></i></span>
+                <a class="nav-link active fs-3" aria-current="page" href="#">Agritech Menu</a>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="w-100 d-flex justify-content-center">
+            <a href="login.html">
+                <button class="btn btn-outline-secondary rounded-5 bg-success text-white " type="button"
+                id="button-addon1">Connect <i class="bi bi-box-arrow-in-left ps-2"></i></button>
+            </a>
+        </div>
+        <hr>
+        <div class="ps-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home <i
+                            class="bi bi-arrow-up-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs <i class="bi bi-arrow-up-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Météo <i class="bi bi-arrow-up-right"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Indicateurs <i class="bi bi-arrow-up-right"></i></a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="d-flex  justify-content-center flex-column w-100 mt-3">
+            <p class="d-flex  justify-content-center">Socials Links</p>
+            <div class="d-flex justify-content-center align-items-center gap-2 mt-3">
+                <span class="d-flex align-items-center gap-3 justify-content-center" style="height: 2em;">
+                    <img class="w-100 h-100" src="outils/Niger.png" alt="">
+                    <p class="small">NE</p>
+                </span>
+                <span class="fs-3">
+                    |
+                </span>
+                <span class=" d-flex align-items-center"><i class="bi bi-twitter-x fs-3"></i></span>
+                <span class=" d-flex align-items-center"><i class="bi bi-facebook fs-3"></i></span>
+                <span class=" d-flex align-items-center"><i class="bi bi-linkedin fs-3"></i></span>
+                <span class=" d-flex align-items-center"><i class="bi bi-instagram fs-3"></i></span>
+                <span class=" d-flex align-items-center"><i class="bi bi-tiktok fs-3"></i></span>
+            </div>
+            <div class="d-flex justify-content-center mt-5" type="submit">
+                <i class="bi bi-envelope fs-3"></i>
+                <p class="m-0">support@agritech.com</p>
+            </div>
+            <div class="d-flex justify-content-center mt-4" type="submit">
+                <i class="bi bi-telephone fs-3"></i>
+                <p class="m-0">(00227)88485190</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenu principal -->
+    <div>
+        <div class="card border-0 m-5">
+            <div class="d-flex justify-content-center">
+                <img src="outils/Home Carroussel.jpg" class="rounded-4" style="height: 20em; width: 97%;" alt="...">
+            </div>
+            <div class="position-absolute w-100 h-100 top-0 left-0" style="background-color: rgba(127, 255, 212, 0.3);">
+                <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column text-white ">
+                    <p>Home > > Tétails Formations</p>
+                    <h5 class="card-title fs-3">Tétails Formations</h5>
+                </div>
+            </div>
+
+        </div>
+        <!-- 8>>4 -->
+        <div class="d-flex justify-content-center align-items-center w-100">
+            <div class="row w-75 plus-100">
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border-0 bg-warning rounded-4 d-flex justify-content-center align-items-center p-5"
+                                style="width: 100%;">
+                                <img src="outils/avatar-1.png" class="card-img-top rounded-circle"
+                                    style="width: 5em; height: 5em;" alt="...">
+                                <div class="card-body d-flex justify-content-center align-items-center flex-column">
+                                    <h4>Malika Malikatou</h4>
+                                    <p>Spécialiste environnement</p>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        elit. Provident illo alias non vero earum doloremque tempora omnis possimus
+                                        asperiores aspernatur dolores praesentium explicabo eveniet laudantium debitis
+                                        modi?</p>
+                                    <div class="d-flex gap-4">
+                                        <span class=" d-flex align-items-center"><i
+                                                class="bi bi-twitter-x fs-3"></i></span>
+                                        <span class=" d-flex align-items-center"><i
+                                                class="bi bi-facebook fs-3"></i></span>
+                                        <span class=" d-flex align-items-center"><i
+                                                class="bi bi-linkedin fs-3"></i></span>
+                                        <span class=" d-flex align-items-center"><i
+                                                class="bi bi-instagram fs-3"></i></span>
+                                        <span class=" d-flex align-items-center"><i
+                                                class="bi bi-tiktok fs-3"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <div class="card bg-light d-flex justify-content-center align-items-center rounded-4"
+                                style="width: 100%;">
+                                <div class="card-body">
+                                    <p class="card-text">Catégorie</p>
+                                    <p class="card-text text-success">Jardinage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 top10">
+                    <div class="card border-0 mb-2" style="width: 100%;">
+                        <img src="outils/Blog-img-1.jpg" class="card-img-top rounded-4" alt="...">
+                    </div>
+                    <p>By Malika Malikatou / Published on 10 / 08 / 2020</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur exercitationem, placeat dolorem
+                        quo nobis alias repellat, recusandae dolorum accusantium fugiat quas. Provident minus magnam
+                        similique facilis eveniet corporis labore magni? Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Architecto iste consequatur error? Aspernatur autem obcaecati similique natus,
+                        et optio iusto fuga tempora odit suscipit totam, earum fugit, consectetur quas labore? Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel ipsa laborum maxime? Tempore,
+                        dolore, architecto doloribus, nesciunt ducimus atque ipsum eligendi velit eaque quasi incidunt
+                        expedita. Non, unde. Consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempora magni accusantium, reiciendis, tempore necessitatibus quia voluptas quidem, unde
+                        deserunt dignissimos iure ut cum veritatis neque quo id! Distinctio, modi provident. Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Deleniti quibusdam consequatur obcaecati alias,
+                        quod delectus dignissimos at consequuntur ipsam facere debitis, magni distinctio cupiditate ut
+                        accusantium, repellendus cum dolore commodi?</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="w-100">
+                        <h4>Comments (7)</h4>
+                        <div class="mb-4">
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50 mt-2 marg-100">
+                                <div class="card-body w-100">
+                                    <div class="d-flex justify-content-between">
+                                        <p><small><span
+                                                    class="text-body"><big>Khadidjatou</big></span>(Khadidjatou@gmail.com)</small>
+                                        </p>
+                                        <i class="bi bi-arrow-return-left"></i>
+                                    </div>
+                                    <p class="m-0">12/09/2025</p>
+                                    <p>Merci du partage.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end mb-5">
+                    <div class="card w-75 p-3 bg-light border-0  marg-100">
+                        <div class="card-body">
+                            <h5 class="text-body">Add a Comments</h5>
+                            <div class="d-flex mb-2 gap-4">
+                                <input type="text" class="form-control border-0" placeholder="Your Name">
+                                <input type="text" class="form-control border-0" placeholder="Your Email">
+                            </div>
+                            <input type="text" class="form-control border-0 " style="padding-bottom: 20em; box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+" placeholder="Your Comment">
+                        </div>
+                        <div class="p-3">
+                            <button class="btn btn-outline-secondary rounded-5 verte text-white p-3" type="button"
+                                id="button-addon1">Submit Comments <i class="bi bi-arrow-up-right ps-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <footer class="" style="box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+">
+        <div class="">
+            <div class="bg-white w-100 ">
+                <div class="card rounded-0 border-0">
+                    <div class="card-body d-flex gap-5 justify-content-end align-items-center">
+                        <div class="me-5">
+                            <p class="w-100 text-align-center">Join Our Newlester</p>
+                        </div>
+                        <div class=" mb-3 d-flex justify-content-end w-25">
+                            <input type="text" class="form-control " placeholder=""
+                                aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            <button class="btn btn-outline-secondary rounded-5 position-absolute verte text-white"
+                                type="button" id="button-addon1">S'abonner</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row me-0" style="margin-right: 0;">
+                    <span class="col-12 h-100 col-lg-3 col-sm-6">
+                        <ul class="fs-5 " style="list-style: none;">
+                            <li class="d-flex">
+                                <span class="" style="height: 2em; width: 2em;">
+                                    <img class="w-100" src="/outils/favico.png" alt="#"></i>
+                                </span>
+                                <p class="fs-4">Agritech App</p>
+                            </li>
+                            <li class="mt-4 d-flex gap-2">
+                                <p class="m-0 small">Lorem Ipsum is simply dummy text of the printing and tyosp
+                                    typesetting
+                                    industry.
+                                    Lorem Ipsum has been the standard dummy text</p>
+                            </li>
+                            <li class="mt-4 d-flex gap-2">
+                                <span class="">
+                                    <p class="m-0 pb-2">Suivez nous sur:</p>
+                                    <a href="https://twitter.com/" class="text-reset text-decoration-none" target="_blank">
+                                        <span class="align-items-center"><i
+                                                class="bi bi-twitter-x fs-3"></i></span>
+                                    </a>
+                                    <a href="https://www.facebook.com/" class="text-reset text-decoration-none" target="_blank">
+                                        <span class="align-items-center"><i
+                                                class="bi bi-facebook fs-3"></i></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/" class="text-reset text-decoration-none" target="_blank">
+                                        <span class="align-items-center"><i
+                                                class="bi bi-linkedin fs-3"></i></span>
+                                    </a>
+                                    <a href="https://www.instagram.com/" class="text-reset text-decoration-none" target="_blank">
+                                        <span class="align-items-center"><i
+                                                class="bi bi-instagram fs-3"></i></span>
+                                    </a>
+                                    <a href="https://www.tiktok.com/" class="text-reset text-decoration-none" target="_blank">
+                                        <span class="align-items-center"><i
+                                                class="bi bi-tiktok fs-3"></i></span>
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </span>
+                    <span class="col-12 h-100 col-lg-3 col-sm-6 pb-0">
+                        <ul class=" " style="list-style: none;">
+                            <li class="fs-4">Liens Utiles</li>
+                            <li class="mt-4">> > Home </li>
+                            <li class="mt-2">> > Formations </li>
+                            <li class="mt-2">> > Météo </li>
+                            <li class="mt-2">> > Indicateurs </li>
+                        </ul>
+                    </span>
+                    <span class="col-12 h-100 col-lg-3 col-sm-6">
+                        <ul class=" " style="list-style: none;">
+                            <li class="fs-4">Nos Services</li>
+                            <li class="mt-4">> > Home </li>
+                            <li class="mt-2">> > Formations </li>
+                            <li class="mt-2">> > Météo </li>
+                            <li class="mt-2">> > Indicateurs </li>
+                        </ul>
+                    </span>
+                    <span class="col-12 h-100 pb-4 col-lg-3 col-sm-6">
+                        <ul class="" style="list-style: none;">
+                            <li class="fs-4">Contactez Nous</li>
+                            <li class="mt-4 d-flex gap-2">
+                                <i class="bi bi-telephone "></i>
+                                <span class="ps-2">
+                                    <p class="m-0">Phone:</p>
+                                    <p class="m-0">(00227) 88 48 51 90</p>
+                                </span>
+                            </li>
+                            <li class="mt-4 d-flex gap-2">
+                                <i class="bi bi-geo-alt-fill "></i>
+                                <span class="ps-2">
+                                    <p class="">Phone:</p>
+                                    <p class="">(00227) 88 48 51 90</p>
+                                </span>
+                            </li>
+                            <li class="mt-4 d-flex gap-2">
+                                <i class="bi bi-envelope "></i>
+                                <span class="ps-2">
+                                    <p class="">Phone:</p>
+                                    <p class="">(00227) 88 48 51 90</p>
+                                </span>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="verte footer-bottom text-white" style="height: 8em;">
+                <p class="  pt-5 ps-5"><span><i class="bi bi-1-circle"></i></span> 2025 Codeloccol, All Rights
+                    Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

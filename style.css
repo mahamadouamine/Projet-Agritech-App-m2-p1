@@ -1,0 +1,165 @@
+
+
+.gapentre-parent:hover > .gapentre
+{
+    transform: translateX(1em);
+    transition: ease 0.9s !important;
+}
+
+
+.bg-image {
+    background-image: url("outils/Home\ Carroussel.jpg");
+    background-size: cover;
+    /* l'image couvre tout */
+    background-position: center;
+    /* centrer l'image */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    /* obligatoire si le div est vide */
+}
+
+.jaune {
+    background-color: #EEDF68;
+}
+
+.verte {
+    background-color: #1D3D14;
+}
+
+.flex-support {
+    overflow: hidden;
+}
+
+.flex-hover {
+    height: 8em;
+    transition: all 0.8s ease;
+    overflow: hidden;
+    position: absolute;
+    top: 14em !important; /* position de départ */
+}
+
+.flex-support:hover .flex-hover {
+    height: 15em;
+    top: 7em !important; /* monte vers le haut */
+}
+
+/* contenu caché */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease 0.3s;
+    transform: scale(0.9);
+}
+
+.flex-support:hover .flex-hover .hidden {
+    visibility: visible !important;
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.verte-hover:hover {
+    background-color: #1C905F;
+
+}
+
+.text-vert:hover {
+    color: white;
+}
+
+.text-vert {
+    color: #1C905F;
+}
+
+/* animation image */
+
+.img-animation:hover 
+{
+    transition: ease 1s transform ;
+    transform: scale(1.2) rotate(4deg);
+}
+
+/* footer */
+
+.footer-bottom:hover
+{
+    background-color: #198754;
+}
+
+.teste-parent:hover .teste 
+{
+    transform: scale(1.04);
+    transition: ease 0.6s;
+    opacity: 0.8;
+}
+.teste
+{
+    overflow: hidden;
+}
+
+.btn-hover:hover
+{
+    background-color: #246431;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+
+@media (max-width: 1440px) {
+    .top-shut
+    {
+        margin-top: 25% !important;
+    }
+}
+@media (max-width: 1024px) {
+    .top-shut
+    {
+        margin-top: 35% !important;
+    }
+}
+@media (max-width: 768px) {
+    .top-shut
+    {
+        margin-top: 18% !important;
+    }
+    .top10
+    {
+        margin-top: 2em;
+    }
+    .marg-100
+    {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .taille
+    {
+        width: 98% !important;
+    }
+
+    .top-shut {
+        margin-top: 44em !important;
+    }
+    .plus-100
+    {
+        width: 100% !important;
+    }
+
+    .www {
+        width: 100% !important;
+    } 
+}
+@media (max-width: 375px) {
+    .wayyy
+    {
+        display: block !important;
+    }
+    .margin-gauche
+    {
+        margin-left: 6em;
+    }
+    
+}
